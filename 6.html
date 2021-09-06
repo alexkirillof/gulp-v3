@@ -9,21 +9,12 @@
 <body>
   <script>
   "use strict";
-
-let a = +prompt("Введите cумму,которую Вы хотите внести на счет:"),
-    z = String(a).substr(String(a).length - 2),
-    end;
-    console.log(z);
-   
-    if(z>= 2 && z<= 4){
-        end="я"
-    } else if(z%10==1){
-       end="ь" 
-    } else{
-        end="ей"
-    }
-    
-    alert("Ваша сумма в "+ a+ " рубл"+end+ "  успешно зачислена.");
+   let arr = [];
+      for(let x=0;x<20;x++){
+                   arr.push('x');
+                     console.log(arr);
+        }
+      
 
 </script>
 
